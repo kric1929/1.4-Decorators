@@ -40,4 +40,5 @@ def get_shop_list_by_dishes(dishes, person_count):
     return ingredients_dict
 
 
-pprint(get_shop_list_by_dishes(['Омлет', 'Фахитос'], 2))
+if __name__ == '__main__':
+    pprint(get_shop_list_by_dishes(['Омлет', 'Фахитос'], 2))
